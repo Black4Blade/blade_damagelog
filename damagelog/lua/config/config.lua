@@ -9,9 +9,18 @@
 
 Damagelog:AddUser("superadmin", 4)
 Damagelog:AddUser("admin", 4)
-Damagelog:AddUser("operator", 2)
-Damagelog:AddUser("user", 2)
-Damagelog:AddUser("guest", 2)
+Damagelog:AddUser("moderator", 4)
+Damagelog:AddUser("user", 1)
+Damagelog:AddUser("regular", 1)
+Damagelog:AddUser("loyal", 1)
+Damagelog:AddUser("unique", 1)
+Damagelog:AddUser("donator", 2)
+Damagelog:AddUser("elite", 2)
+Damagelog:AddUser("customrank", 2)
+Damagelog:AddUser("customvip", 2)
+Damagelog:AddUser("owner", 4)
+Damagelog:AddUser("dev", 4)
+Damagelog:AddUser("head admin", 4)
 
 --[[ A message is shown when an alive player opens the menu
 	1 : if you want to only show it to superadmins
